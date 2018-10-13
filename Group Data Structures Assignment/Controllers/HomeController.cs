@@ -13,5 +13,10 @@ namespace Group_Data_Structures_Assignment.Controllers
         {
             return View();
         }
+
+        public ActionResult Exit()
+        {
+            return Redirect("https://www.byu.edu");
+        }
     }
 }
